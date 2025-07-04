@@ -1,0 +1,81 @@
+button,a.maklumat,a.banding{
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+    color: darkolivegreen;
+    
+    width:90px;
+    padding: 7px 8px 7px 32px;
+    border: 1px solid darkolivegreen;
+    margin-top: 10px;
+    background-position: 8px;
+    background-repeat: no-repeat;
+}
+
+button.login{
+    background-image: url(Gambar/signin.png);
+}
+
+button.signup{
+    background-image: url(Gambar/signup.png);
+}
+
+button.batal{
+    background-image: url(Gambar/delete2.png);
+}
+
+button.import{
+    background-image: url(Gambar/import.png);
+}
+
+button.tambah{
+    background-image: url(Gambar/add.png);
+}
+
+button.merah{
+    background-image: url(Gambar/red.png);
+}
+
+button.biru{
+    background-image: url(Gambar/blue.png);
+}
+
+button.kuning{
+    background-image: url(Gambar/yellow.png);
+}
+
+button.hijau{
+    background-image: url(Gambar/green.png);
+}
+
+button.hitam{
+    background-image: url(Gambar/black.png);
+}
+
+button.cetak{
+    background-image: url(Gambar/printer.png);
+}
+
+button.cari{
+    background-image: url(Gambar/search.png);
+}
+
+a.maklumat{
+    width:110px;
+    text-decoration: none;
+    background-image: url(Gambar/info.png);
+}
+
+a.banding{
+    width:110px;
+    text-decoration: none;
+    background-image: url(Gambar/note.png);
+}
+
+button:hover,
+a.maklumat:hover,
+a.banding:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
